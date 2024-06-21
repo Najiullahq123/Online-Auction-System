@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OnlineAuctionSystem.Customer">
+  <grid id="27dc6" binding="customer_panel" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="1" vgap="1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4474363"/>
+      <enabled value="true"/>
+      <foreground color="-16309829"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="cdeb8" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6505620"/>
+          <foreground color="-6505620"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c2e8d" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6505620"/>
+              <font name="Times New Roman" size="14" style="1"/>
+              <foreground color="-6505620"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="4dc87" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="14" style="1"/>
+                  <foreground color="-16309829"/>
+                  <text value="Item Name"/>
+                </properties>
+              </component>
+              <component id="c76b7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="14" style="1"/>
+                  <foreground color="-16309829"/>
+                  <text value="Price"/>
+                </properties>
+              </component>
+              <component id="d4ab2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="14" style="1"/>
+                  <foreground color="-16309829"/>
+                  <text value="Image"/>
+                </properties>
+              </component>
+              <component id="11e" class="javax.swing.JLabel" binding="itemName">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="14" style="1"/>
+                  <foreground color="-4501991"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e7f77" class="javax.swing.JLabel" binding="image">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="49b7b" class="javax.swing.JLabel" binding="price">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Times New Roman" size="14" style="1"/>
+                  <foreground color="-4501991"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <scrollpane id="5001d">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12038725"/>
+              <enabled value="true"/>
+              <foreground color="-6505620"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8ff38" class="javax.swing.JTable" binding="bidDetails">
+                <constraints/>
+                <properties>
+                  <background color="-15615047"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="cb4a" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4476404"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c7548" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-16309829"/>
+              <text value="Bidder Name:"/>
+            </properties>
+          </component>
+          <component id="429a3" class="javax.swing.JTextField" binding="bidName">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4605054"/>
+              <font size="14"/>
+              <foreground color="-16316665"/>
+            </properties>
+          </component>
+          <component id="2e421" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Times New Roman" size="18" style="1"/>
+              <foreground color="-16309829"/>
+              <text value="Bid Price:"/>
+            </properties>
+          </component>
+          <component id="cacd3" class="javax.swing.JTextField" binding="bidPrice">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4605054"/>
+              <font size="14"/>
+              <foreground color="-16316665"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="77989" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="24" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="Customer Panel"/>
+        </properties>
+      </component>
+      <component id="e195c" class="javax.swing.JButton" binding="ADDBIDButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16309829"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="ADD Bid"/>
+        </properties>
+      </component>
+      <component id="bcd8a" class="javax.swing.JButton" binding="close">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4515025"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Close"/>
+        </properties>
+      </component>
+      <component id="793ee" class="javax.swing.JLabel" binding="timerLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-4510940"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ff4fd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="Timer-"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

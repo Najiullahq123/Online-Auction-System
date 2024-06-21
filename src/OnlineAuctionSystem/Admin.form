@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OnlineAuctionSystem.Admin">
+  <grid id="27dc6" binding="adminPanel" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="1" vgap="1">
+    <margin top="10" left="20" bottom="5" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="526" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4474363"/>
+      <enabled value="true"/>
+      <font name="Times New Roman" size="12" style="1"/>
+      <foreground color="-16309829"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <hspacer id="36f9a">
+        <constraints>
+          <grid row="1" column="4" row-span="4" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="56f44" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10372308"/>
+          <enabled value="true"/>
+          <font name="Times New Roman" size="24" style="1"/>
+          <foreground color="-16309829"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Admin Panel"/>
+        </properties>
+      </component>
+      <component id="4e82" class="javax.swing.JTextField" binding="nameData">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4605054"/>
+          <font size="14"/>
+          <foreground color="-16316665"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2ac6" class="javax.swing.JTextField" binding="priceData">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4605054"/>
+          <font size="14"/>
+          <foreground color="-16316665"/>
+        </properties>
+      </component>
+      <component id="14fe" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="91" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="Item Name:"/>
+        </properties>
+      </component>
+      <component id="1b371" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="91" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10372308"/>
+          <enabled value="true"/>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="Item Price:"/>
+        </properties>
+      </component>
+      <component id="5e9b9" class="javax.swing.JButton" binding="ADDITEMButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16309829"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Add Item"/>
+        </properties>
+      </component>
+      <component id="58e66" class="javax.swing.JTextField" binding="path">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4605054"/>
+          <font size="14"/>
+          <foreground color="-16316665"/>
+        </properties>
+      </component>
+      <component id="94526" class="javax.swing.JButton" binding="close">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4515025"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Close"/>
+        </properties>
+      </component>
+      <grid id="1a4a1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="4" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4605054"/>
+          <foreground color="-4605054"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="be370" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4605054"/>
+              <foreground color="-4605054"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <scrollpane id="caac3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4605054"/>
+                  <enabled value="true"/>
+                  <foreground color="-4605054"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="5ce25" class="javax.swing.JTable" binding="table_1">
+                    <constraints/>
+                    <properties>
+                      <background color="-15615047"/>
+                      <fillsViewportHeight value="false"/>
+                      <font size="13"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="cd139" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="Timer-"/>
+        </properties>
+      </component>
+      <component id="dfef4" class="javax.swing.JLabel" binding="timerLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="18" style="1"/>
+          <foreground color="-16309829"/>
+          <text value="01:00"/>
+        </properties>
+      </component>
+      <component id="d7a0e" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16309829"/>
+          <enabled value="true"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Start Auction"/>
+        </properties>
+      </component>
+      <component id="9269d" class="javax.swing.JLabel" binding="image_label">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2c33" class="javax.swing.JButton" binding="Select_image">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16309829"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Select Image"/>
+        </properties>
+      </component>
+      <component id="25b22" class="javax.swing.JButton" binding="Delete_Auction_Data">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4515025"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-4485351"/>
+          <text value="Delete Data"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
